@@ -55,7 +55,7 @@ img {
     transition: .5s
 }
 .btn:hover {
-   scale:  1.2;
+   transform: scale(1.2);
 }
 
 /* iframe */
@@ -95,7 +95,7 @@ iframe {
 }
 .sub-cover {
     background-size: cover;
-    background-position:  center boottom;
+    background-position:  center bottom;
     height: 528px;
     margin-bottom: 4rem;
 }
