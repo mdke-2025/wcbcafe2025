@@ -390,3 +390,20 @@ iframe {
 .info th {
     padding-left: 2.5rem;
 }
+@media (max-width: 799px) {
+    .location {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .location-info,
+    .location-map {
+      width: 100%;
+    }
+  
+    iframe {
+      max-width: 100%;
+    }
+  }
+  
