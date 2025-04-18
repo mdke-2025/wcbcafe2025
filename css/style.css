@@ -243,7 +243,7 @@ iframe {
 /*　フッター
 -----------------------------------------*/
 .page-footer {
-    background-image: url(../images/footer-s.webp);
+    background-image: url(../images/footer-l.webp);
     background-size: cover;
     background-position: center;
     padding-top: 12rem;
@@ -391,7 +391,7 @@ iframe {
 /* フッター　*/
 .page-footer {
     padding-top: 12rem;
-    background-image: url(../images/cover-contact-l.webp);
+    background-image: url(../images/footer-l.webp);
 }
 .info th {
     padding-left: 2.5rem;
