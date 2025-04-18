@@ -409,10 +409,18 @@ iframe {
           width: 100%;
         }
       
-        iframe {
+        .iframe {
           width: 100% !important;
           height: auto;
         }
+        .sns {
+            flex-direction: column;
+            align-items: center; 
+          }
+        .sns-item {
+            width: 100%;     
+            flex: none;   
+          }
       }
        
   
