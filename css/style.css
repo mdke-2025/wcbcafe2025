@@ -344,6 +344,7 @@ iframe {
 .grid {
     gap: 3rem 2rem;
     grid-template-columns: repeat(3,1fr);
+    
 }
 .item img {
     margin-bottom:  .5rem;
@@ -351,7 +352,7 @@ iframe {
 .item p {
     font-size: 1rem;
 }
-
+ 
 /* CONTACT */
 .cover-contact {
     background-image: url(../images/cover-contact-l.webp);
@@ -420,6 +421,9 @@ iframe {
         .sns-item {
             width: 100%;     
             flex: none;   
+          }
+          .grid {
+            grid-template-columns: 1fr;
           }
       }
        
